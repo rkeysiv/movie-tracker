@@ -1,0 +1,28 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* --- YOUR CUSTOM CSS BELOW --- */
+
+/* Example: Make the table take up full width and look cleaner */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #333; /* Dark header */
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Example: Change the background color */
+body {
+    background-color: #fcfcfc;
+}
