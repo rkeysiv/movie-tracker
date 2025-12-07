@@ -1,0 +1,87 @@
+---
+---
+/* 1. IMPORT ROBOTO MONO (The modern "Droid" equivalent) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* 2. IMPORT THE THEME */
+@import "{{ site.theme }}";
+
+/* 3. CORE VARIABLES */
+:root {
+  --bg-color: #222222;       /* Dark Grey Background */
+  --text-color: #ffffff;     /* White Text */
+  --table-fill: #333333;     /* Lighter Grey for Table */
+  --link-color: #82aaff;     /* Soft Blue for links */
+  --border-color: #444444;   /* Subtle border color */
+}
+
+/* 4. GLOBAL STYLES */
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  /* Font Stack: Tries Roboto, then Droid, then generic monospace */
+  font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important; 
+}
+
+/* Force headers to match the font */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color) !important;
+  font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important;
+}
+
+/* 5. TABLE STYLING (The "Grey Box" Look) */
+table {
+  width: 100%;
+  border-collapse: separate; /* Allows us to round corners if we want */
+  border-spacing: 0;
+  margin-top: 20px;
+  background-color: var(--table-fill); /* The Lighter Grey Fill */
+  border: 1px solid var(--border-color);
+  border-radius: 8px; /* Optional: Rounds the table corners */
+  overflow: hidden;   /* Keeps content inside rounded corners */
+}
+
+th {
+  background-color: #444444; /* Even lighter header to distinguish it */
+  color: #ffffff;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid #555555;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border-color);
+  color: #dddddd; /* Slightly off-white for table text (easier on eyes) */
+}
+
+/* 6. LINKS & EXTRAS */
+a {
+  color: var(--link-color) !important;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Force the footer/header to match the dark theme */
+header, footer, .wrapper {
+  background-color: transparent !important;
+}
+
+/* Move the GitHub Link to bottom (Footer style) */
+header ul, header .view {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-color); /* Match background */
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  padding: 15px;
+  z-index: 999;
+}
+header .view small { display: none; }
