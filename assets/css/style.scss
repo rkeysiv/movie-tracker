@@ -2,27 +2,68 @@
 ---
 @import "{{ site.theme }}";
 
-/* --- YOUR CUSTOM CSS BELOW --- */
+/* 1. DARK MODE BACKGROUND */
+body {
+  background-color: #000000; /* Pure black as requested */
+  color: #e0e0e0;            /* Light gray text for readability */
+}
 
-/* Example: Make the table take up full width and look cleaner */
+section {
+  color: #e0e0e0;
+}
+
+/* 2. TABLE STYLING (Make it look cool) */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin-top: 20px;
+  background-color: #111;    /* Slightly lighter black for the table */
 }
 
 th {
-  background-color: #333; /* Dark header */
-  color: white;
+  background-color: #333;    /* Dark gray header */
+  color: #fff;
+  text-align: left;
   padding: 12px;
+  border-bottom: 2px solid #555;
 }
 
 td {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #333;
+  color: #ccc;
 }
 
-/* Example: Change the background color */
-body {
-    background-color: #fcfcfc;
+/* 3. LINK COLORS */
+a {
+  color: #5da2ff; /* Light blue links so they pop on black */
+}
+
+/* 4. MOVE "VIEW ON GITHUB" TO THE BOTTOM */
+/* This specifically targets the link in the 'Minimal' theme */
+header ul, 
+header .view {
+  position: fixed;        /* Force it to stay in one place */
+  bottom: 0;              /* Stick to the bottom */
+  left: 0; 
+  right: 0;               /* Stretch across the screen */
+  width: 100%;
+  text-align: center;     /* Center the text */
+  padding: 20px;
+  background-color: #000; /* Match background to hide content behind it */
+  border-top: 1px solid #333; /* A little line to separate it */
+  z-index: 100;
+}
+
+/* Hide the user/repo name subtext if you want a cleaner look */
+header .view small {
+  display: none;
+}
+
+/* 5. ADJUST LAYOUT (Optional) */
+/* This ensures the sidebar text doesn't overlap the content on small screens */
+@media print, screen and (min-width: 960px) {
+  .wrapper {
+    max-width: 1200px; /* Make the page a bit wider */
+  }
 }
