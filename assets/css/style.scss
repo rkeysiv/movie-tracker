@@ -1,87 +1,78 @@
 ---
 ---
-/* 1. IMPORT ROBOTO MONO (The modern "Droid" equivalent) */
+/* 1. IMPORT FONTS & THEME */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-
-/* 2. IMPORT THE THEME */
 @import "{{ site.theme }}";
 
-/* 3. CORE VARIABLES */
+/* 2. VARIABLES */
 :root {
   --bg-color: #222222;       /* Dark Grey Background */
   --text-color: #ffffff;     /* White Text */
   --table-fill: #333333;     /* Lighter Grey for Table */
-  --link-color: #82aaff;     /* Soft Blue for links */
   --border-color: #444444;   /* Subtle border color */
 }
 
-/* 4. GLOBAL STYLES */
+/* 3. HIDE EVERYTHING EXCEPT THE CONTENT */
+/* This hides the sidebar/header (where the site title usually lives) */
+header {
+  display: none !important;
+}
+
+/* This hides the footer/GitHub link */
+footer {
+  display: none !important;
+}
+
+/* If you also want to hide the "Movies I've Watched" (H1) inside your markdown, uncomment this: */
+/* h1 { display: none !important; } */
+
+/* 4. LAYOUT RESET */
+/* Since we removed the sidebar, we need to center the content */
 body {
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
-  /* Font Stack: Tries Roboto, then Droid, then generic monospace */
-  font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important; 
-}
-
-/* Force headers to match the font */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-color) !important;
   font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important;
+  margin: 0;
+  padding: 20px; /* Adds a little breathing room around the edges */
 }
 
-/* 5. TABLE STYLING (The "Grey Box" Look) */
+.wrapper, section {
+  width: 100% !important;
+  max-width: 1000px !important; /* Prevents table from getting too wide on huge screens */
+  margin: 0 auto !important;    /* Centers the table horizontally */
+  padding: 0 !important;
+}
+
+/* 5. TABLE STYLING */
 table {
   width: 100%;
-  border-collapse: separate; /* Allows us to round corners if we want */
+  border-collapse: separate; 
   border-spacing: 0;
-  margin-top: 20px;
-  background-color: var(--table-fill); /* The Lighter Grey Fill */
+  background-color: var(--table-fill);
   border: 1px solid var(--border-color);
-  border-radius: 8px; /* Optional: Rounds the table corners */
-  overflow: hidden;   /* Keeps content inside rounded corners */
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 th {
-  background-color: #444444; /* Even lighter header to distinguish it */
+  background-color: #444444;
   color: #ffffff;
   padding: 15px;
   text-align: left;
   border-bottom: 2px solid #555555;
   text-transform: uppercase;
-  font-size: 0.85em;
-  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 td {
   padding: 12px 15px;
   border-bottom: 1px solid var(--border-color);
-  color: #dddddd; /* Slightly off-white for table text (easier on eyes) */
+  color: #dddddd;
 }
 
-/* 6. LINKS & EXTRAS */
-a {
-  color: var(--link-color) !important;
-  text-decoration: none;
+/* 6. TYPOGRAPHY OVERRIDES */
+/* Ensures all text inside the table adheres to the monospace font */
+h1, h2, h3, h4, h5, h6, p, li, td, th {
+  font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important;
 }
-a:hover {
-  text-decoration: underline;
-}
-
-/* Force the footer/header to match the dark theme */
-header, footer, .wrapper {
-  background-color: transparent !important;
-}
-
-/* Move the GitHub Link to bottom (Footer style) */
-header ul, header .view {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--bg-color); /* Match background */
-  border-top: 1px solid var(--border-color);
-  text-align: center;
-  padding: 15px;
-  z-index: 999;
-}
-header .view small { display: none; }
