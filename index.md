@@ -3,4 +3,5 @@
 
 | Title                                   | Watch Date |     |     |
 | --------------------------------------- | ---------- | --- | --- |
-| Harry Potter and the Chamber of Secrets |            |     |     |
+| Harry Potter and the Chamber of Secrets | 12/9/2025  |     |     |
+|                                         |            |     |     |
