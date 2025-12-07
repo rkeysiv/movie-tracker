@@ -1,4 +1,6 @@
-# movie-tracker
-Tracking Movies 
+# The Great Movie Tracker
 
-Harry Potter.
+
+| Title                                   | Watch Date |     |     |
+| --------------------------------------- | ---------- | --- | --- |
+| Harry Potter and the Chamber of Secrets |            |     |     |
