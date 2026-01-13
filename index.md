@@ -7,4 +7,7 @@
 | The Muppet Christmas Carol                | 12/24/2025 | 4      |
 | Wake Up Dead Man: A Knives Out Mystery    | 12/25/2025 | 3.5    |
 | Harry Potter and the Order of the Phoenix | 12/28/2025 | 4      |
-|                                           |            |        |
+| Harry Potter and the Half Blood Prince    | 12/31/2025 | 4      |
+| Harry Potter and the Deathly Hollows Pt 1 | 1/2/2026   | 3.8    |
+| Harry Potter and the Deathly Hollows Pt 2 | 1/4/2026   | 4.7    |
+| Parasite                                  | 1/11/2026  | 4.5    |
