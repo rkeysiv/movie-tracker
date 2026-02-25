@@ -11,3 +11,4 @@
 | Harry Potter and the Deathly Hollows Pt 1 | 1/2/2026   | 3.8    |
 | Harry Potter and the Deathly Hollows Pt 2 | 1/4/2026   | 4.7    |
 | Parasite                                  | 1/11/2026  | 4.5    |
+| Isle of Dogs                              | 2/7/2026   | 4.6    |
