@@ -1,2 +1,3 @@
 title: Movies
 theme: jekyll-theme-minimal
+baseurl: "/movie-tracker"
