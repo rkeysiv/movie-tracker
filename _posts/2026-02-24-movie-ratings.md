@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Movie Ratings Log"
+title: Movie Ratings Log
 date: 2026-02-24
+by: me?
 ---
 
 | Title                                     | Watch Date | Rating |
