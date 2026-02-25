@@ -13,5 +13,6 @@ title: Home
   {% endfor %}
 </ul>
 
+RSS feed link: https://rkeysiv.github.io/movie-tracker/feed.xml
 [RSS Feed]({{ "/feed.xml" | relative_url }})
 
