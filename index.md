@@ -12,3 +12,6 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+
+[RSS Feed]({{ "/feed.xml" | relative_url }})
+
