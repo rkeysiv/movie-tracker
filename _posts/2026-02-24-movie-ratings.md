@@ -2,7 +2,8 @@
 layout: post
 title: Movie Ratings Log
 date: 2026-02-24
-by: me?
+author: "Robbie Keys"
+tags: [movies, ratings]
 ---
 
 | Title                                     | Watch Date | Rating |

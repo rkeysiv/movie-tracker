@@ -1,4 +1,5 @@
 title: Movies
+author: "Robbie Keys"
 theme: jekyll-theme-minimal
 baseurl: "/movie-tracker"
 permalink: pretty

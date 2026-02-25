@@ -75,4 +75,13 @@ td {
 /* Ensures all text inside the table adheres to the monospace font */
 h1, h2, h3, h4, h5, h6, p, li, td, th {
   font-family: 'Roboto Mono', 'Droid Sans Mono', monospace !important;
+  color: var(--text-color) !important;
+}
+
+a {
+  color: #00ccff; /* Bright blue for links so they stand out */
+}
+
+a:hover {
+  text-decoration: underline;
 }
