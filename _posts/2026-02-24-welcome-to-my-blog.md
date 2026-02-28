@@ -6,6 +6,3 @@ author: "Robbie Keys"
 tags: [introduction, meta]
 ---
 
-This is my first post on my new movie tracker blog! I'm writing this in Obsidian and syncing it to GitHub Pages.
-
-I'll be using this space to share more detailed thoughts on the movies I'm watching beyond just the ratings on my homepage.
