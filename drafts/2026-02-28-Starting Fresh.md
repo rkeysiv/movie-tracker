@@ -43,4 +43,9 @@ Duration focused day that can range from easy to race specific depending on the 
 Long hill reps or paddle work in the pool. Monitor fatigue closely on these. It's easy to overdose. 
 
 For loading days (either green or strength) I'm going to include a standard warm up so that I can tell if I'm ready to load or not.
-
+- Run: 
+- Bike: 6 min @ 140W, 155W, 170W
+- Swim: Easy 400, 4x100 descend on 5-10s, 4x50 alt easy/steady on 10 s rest
+- if hr suppressed more than 5 BPM and other metrics are not good, don't load
+- if hr suppressed and other metrics are good, extend wu
+	- then if hr is still suppressed call it a day
