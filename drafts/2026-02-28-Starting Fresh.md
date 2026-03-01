@@ -24,12 +24,12 @@ I'm going to switch up the basic week too:
 
 | Day  | Focus    | Total duration of endurance training (min)  |
 | ---- | -------- | ------------------------------------------- |
-| Sun  | Easy     | 45                                          |
+| Sun  | Green    | 90+                                         |
 | Mon  | Easy     | 45                                          |
-| Tue  | Strength | 90 (45-60 min strength with the rest green) |
-| Wed  | Green    | 90                                          |
-| Thur | Easy     | 45                                          |
-| Fri  | Green    | 90                                          |
+| Tue  | Easy     | 45                                          |
+| Wed  | Strength | 90 (45-60 min strength with the rest green) |
+| Thur | Green    | 90                                          |
+| Fri  | Easy     | 45                                          |
 | Sat  | Green    | 150                                         |
 
 This will give about 9.5 hrs of endurance training. Additionally, I want to still include light lifting to hit my weak spots like my hamstrings and rhomboids to balance out the sport specific muscles.
