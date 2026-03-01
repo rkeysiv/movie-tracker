@@ -37,9 +37,10 @@ This will give about 9.5 hrs of endurance training. Additionally, I want to stil
 
 ### Easy Days
 This means active recovery, drills, or complete rest depending on how I'm feeling. The feeling afterwards should be a refreshed feeling and a desire to get going.
-
 ### Green Days
+Duration focused day that can range from easy to race specific depending on the needs. No strain from this session. You can do it every day. If there's decoupling you've set your targets too high (either pace or duration).
+### Strength Days
+Long hill reps or paddle work in the pool. Monitor fatigue closely on these. It's easy to overdose. 
 
-
-For loading days I'm going to include a standard warm up so that I can tell if I'm ready to load or not.
+For loading days (either green or strength) I'm going to include a standard warm up so that I can tell if I'm ready to load or not.
 
