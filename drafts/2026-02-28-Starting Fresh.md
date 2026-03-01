@@ -38,7 +38,7 @@ This will give about 9.5 hrs of endurance training. Additionally, I want to stil
 ### Easy Days
 This means active recovery, drills, or complete rest depending on how I'm feeling. The feeling afterwards should be a refreshed feeling and a desire to get going.
 ### Green Days
-Duration focused day that can range from easy to race specific depending on the needs. No strain from this session. You can do it every day. If there's decoupling you've set your targets too high (either pace or duration).
+Duration focused day that can range from easy to race specific depending on the needs. No strain from this session. You can do it every day. If there's decoupling you've set your targets too high (either pace or duration). These will also have some neuromuscular speed interspersed ie strides and pick ups.
 ### Strength Days
 Long hill reps or paddle work in the pool. Monitor fatigue closely on these. It's easy to overdose. 
 
