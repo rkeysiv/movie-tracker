@@ -17,6 +17,7 @@ The priority for the block will be adaptation. After last year I wanted to test 
 - desire to train
 - food
 - yesterday's training performance
+
 These should give me an indication of whether or not I am recovering. I found that by the end of the last block my desire to train had tanked. Training, even easy training, felt like a chore. The goal with tracking these things is to catch if I'm starting to dig a hole and stop digging it before I get too deep.
 
 I'm going to switch up the basic week too:
