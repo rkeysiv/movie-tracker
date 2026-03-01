@@ -36,7 +36,10 @@ This will give about 9.5 hrs of endurance training. Additionally, I want to stil
 
 
 ### Easy Days
-This means active recovery, drills, or complete rest depending on how I'm feeling. The feeling afterwards 
+This means active recovery, drills, or complete rest depending on how I'm feeling. The feeling afterwards should be a refreshed feeling and a desire to get going.
+
+### Green Days
+
 
 For loading days I'm going to include a standard warm up so that I can tell if I'm ready to load or not.
 
