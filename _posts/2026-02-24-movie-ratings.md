@@ -20,5 +20,5 @@ tags: [movies, ratings]
 | Harry Potter and the Deathly Hollows Pt 2 | 1/4/2026   | 4.7    |
 | Parasite                                  | 1/11/2026  | 4.5    |
 | Isle of Dogs                              | 2/7/2026   | 4.6    |
-| Ratatouille                               | 3/15/2026` | 4.6    |
-|                                           |            |        |
+| Ratatouille                               | 3/15/2026  | 4.6    |
+| The Odyssey                               | 8/15/2026  | 4.7    |
